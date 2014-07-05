@@ -3,7 +3,7 @@
 ### CLEAR THE 0 DIRECTORY
 (cd 0; rm -f *)
 
-. $PWD/../../../bin/bashrc noPrint
+. $WM_PROJECT_USER_DIR/waves2Foam/bin/bashrc noPrint
 
 ### COPY RELEVANT FIELDS
 
