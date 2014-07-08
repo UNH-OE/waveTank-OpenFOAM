@@ -24,7 +24,7 @@ inletCoeffs
 {
     waveType            stokesFirst;
     Tsoft               2;
-    depth               0.4;
+    depth               2.44;
     period              2;
     direction           ( 1 0 0 );
     phi                 0;
