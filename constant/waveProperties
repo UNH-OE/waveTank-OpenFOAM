@@ -29,7 +29,7 @@ inletCoeffs
     direction           ( 1 0 0 );
     phi                 0;
     height              0.1;
-    waveNumber          (1.70048 0 0);
+    waveNumber          (1.02003 0 0);
     omega               3.14159;
 
     relaxationZone
@@ -38,8 +38,8 @@ inletCoeffs
         relaxationShape     Rectangular;
         beachType           Empty;
         relaxType           INLET;
-        startX              ( 0 0 -1 );
-        endX                ( 5 0 1 );
+        startX              ( 0 -2 0 );
+        endX                ( 5 2 0 );
         orientation         ( 1 0 0 );
     }
 }
@@ -56,8 +56,8 @@ outletCoeffs
         relaxationShape     Rectangular;
         beachType           Empty;
         relaxType           OUTLET;
-        startX              ( 13 0 -1 );
-        endX                ( 18 0 1 );
+        startX              ( 31 -2 0 );
+        endX                ( 36 2 0 );
         orientation         ( 1 0 0 );
     }
 }

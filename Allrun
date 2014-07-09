@@ -14,7 +14,7 @@ application="waveFoam"
 runApplication blockMesh
 
 # Create the wave probes
-runApplication waveGaugesNProbes
+#runApplication waveGaugesNProbes
 
 # Compute the wave parameters
 runApplication setWaveParameters

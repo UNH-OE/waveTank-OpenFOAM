@@ -31,7 +31,7 @@ inletCoeffs
     Tsoft       2;
 
     // Water depth at the boundary and in the relaxation zone
-    depth       0.400000;
+    depth       2.4400000;
 
     // Wave period
     period      2.0;
@@ -53,8 +53,8 @@ inletCoeffs
         beachType        Empty;
     
         relaxType   INLET;
-        startX      (0 0.0 -1);
-        endX        (5 0.0  1);
+        startX      (0 -2 0);
+        endX        (5 2  0);
         orientation      (1.0 0.0 0.0);
     }
 };
@@ -72,8 +72,8 @@ outletCoeffs
         beachType        Empty;    
 
         relaxType   OUTLET;
-        startX      (13 0.0 -1);
-        endX        (18 0.0  1);
+        startX      (31 -2 0);
+        endX        (36 2  0);
         orientation      (1.0 0.0 0.0);
     }
 };
