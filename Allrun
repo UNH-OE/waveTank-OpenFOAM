@@ -13,14 +13,14 @@ application="waveFoam"
 # Create the computational mesh
 runApplication blockMesh
 
-# Create the wave probes
-#runApplication waveGaugesNProbes
-
 # Compute the wave parameters
 runApplication setWaveParameters
 
 # Set the wave field
 runApplication setWaveField
+
+# Create the wave probes
+runApplication waveGaugesNProbes
 
 # Run the application
 runApplication $application

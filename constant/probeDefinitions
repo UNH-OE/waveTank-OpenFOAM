@@ -19,12 +19,12 @@ surfaceElevationAnyName
     type waveGauge;
 
     pointDistribution lineDistribution;
-    N 179;
-    linestart (0.10 0 -0.3);
-    lineend   (35.9 0 -0.3);
-    add       ( 0 0.45 0);
-    axis      y;
-    stretch 1.;
+    N 20;
+    linestart   (0.10 1e-12 -0.3);
+    lineend     (35.9 1e-12 -0.3);
+    add         (0 0 0.45);
+    axis        z;
+    stretch     1.0;
 }
 
 
